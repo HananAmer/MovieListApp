@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:state_pressed="true"
+        app:srcCompat="@android:drawable/btn_star_big_on" />  pressed
+
+    <item android:state_pressed="false"
+        app:srcCompat="@android:drawable/btn_star_big_off" />  default
+</selector>-->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:state_enabled="false"
+        app:srcCompat="@android:drawable/btn_star_big_off" />
+    <item
+        android:state_pressed="true"
+        android:state_enabled="true"
+        app:srcCompat="@android:drawable/btn_star_big_on" />
+
+</selector>
